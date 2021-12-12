@@ -1,0 +1,154 @@
+:root{
+	--vermelho: #E50914;
+	--preta: #141414;
+}
+
+*{
+	margin: 0;	
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*elementos base*/ 
+
+body{
+	background: var(--preta) !important;
+	font-family: 'Arial', Times, serif;
+	color: white;
+}
+
+header .container{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo{
+	margin-left: 5px;
+	color: var(--vermelho);
+	font-family: 'Arial Black', Times;
+	font-size:40px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #AAA;
+	margin-right: 10px;
+}
+
+header nav a:hover{
+	color: #fff;
+}
+
+/*filme principal*/
+#filme-principal{
+	font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%), 
+    url('../Imagens/capa.png')  no-repeat center right black;
+	height:450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#filme-principal .descricao{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.titulo{
+	margin-top: 15%;
+	font-size: 40px;
+	font-family: 'trebuchet ms', Arial, sans-serif;
+}
+
+.botao{
+	background-color: rgba(0, 0, 0, .50);
+	border: none;
+	color: white;
+	padding: 15px 30px; 
+	margin-left: 15px;
+	font-size: 12px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.botao:hover{
+	background-color: white;
+	color: black;
+}
+
+.botao i{
+	margin-right:  8px;
+}
+
+.container{
+	margin-left:  20px;
+}
+
+.filme-principal .container{
+	width: 70%;
+}
+
+.box-filme{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.carrosel-filmes{
+	margin-top: 5px;
+}
+
+.scarface {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+    url('../capas/scarface-capa.jpg') no-repeat center right black !important;
+}
+
+.irlandes {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+    url('../capas/irlandes.jpg') no-repeat center right black !important;
+}
+
+.intocaveis {
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%), 
+	url('../capas/intocaveis.jpg') no-repeat center right black !important;
+}
+
+.black-list {
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+	url('../capas/black-list.jpg') no-repeat center right black !important;
+}
+
+.bonnie-clyde {
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+	url('../capas/bonnie-clyde.jpg') no-repeat center right black !important;
+}
+
+.good-fellas {
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+	url('../capas/good-fellas.jpg') no-repeat center right black !important;
+}
+
+.mean-streets {
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+	url('../capas/mean-streets.jpg') no-repeat center right black !important;
+}
+
+.peaky-blinders {
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+	url('../capas/peaky-blinders.jpg') no-repeat center right black !important;
+}
+
+.the-sopranos {
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+	url('../capas/the-sopranos.jpg') no-repeat center right black !important;
+}
+
+.donnie {
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%),
+	url('../capas/donnie.jpg') no-repeat center right black !important;
+	background-position-y: 200px;
+}
